@@ -1,0 +1,238 @@
+* {
+  margin: 0px auto;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  clear: both;
+}
+
+body {
+  width: 1000px;
+}
+
+header {
+  border: 2px solid black;
+  display: flex;
+  padding-top: 10px;
+  background-color: rgb(65, 65, 201);
+}
+
+#hright {
+  display: flex;
+}
+
+#hright form {
+  padding-right: 10px;
+}
+
+#hright input {
+  width: 110px;
+}
+
+#hright label {
+  color: white;
+}
+
+#hright button {
+  height: 20px;
+  margin-top: 18px;
+  color: white;
+  background-color: rgb(66, 66, 189);
+  font-weight: bold;
+}
+
+#main-content {
+  display: flex;
+  background-color: aliceblue;
+}
+
+#leftbar {
+  margin-top: 30px;
+  margin-left: 130px;
+  color: rgb(66, 66, 189);
+}
+
+#leftbar img {
+  margin-top: 10px;
+}
+
+#rightbar {
+  width: 270px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 140px;
+}
+
+#rightbar h4,
+label,
+#top,
+hr {
+  color: rgb(66, 66, 189);
+}
+
+#rightbar hr {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: rgb(66, 66, 189);
+}
+
+#rightbar Input {
+  width: 183px;
+  height: 30px;
+  margin-right: 5px;
+  border: 1px solid rgb(66, 66, 189);
+  margin-bottom: 1px;
+}
+
+#rightbar label {
+  margin-top: 5px;
+}
+
+#rightbar div {
+  margin-bottom: 5px;
+}
+
+#rightbar #div2 {
+  margin-left: 3px;
+}
+
+#rightbar #div4 {
+  text-align: left;
+  display: flex;
+}
+
+#rightbar #label4 {
+  width: 63px;
+  height: 20px;
+  padding-top: 0px;
+  margin-top: 0;
+  margin-left: 35px;
+  padding-right: 0;
+  text-indent: -15px;
+}
+
+#div4 input {
+  width: 245px;
+}
+
+#div5 label {
+  width: 70px;
+  height: 35px;
+  padding-top: 0px;
+  margin-top: 0;
+  margin-left: 12px;
+  text-indent: 30px;
+}
+
+#rightbar #div5 {
+  text-align: left;
+  display: flex;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#rightbar #div6 {
+  margin-left: 45px;
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+#div6 select {
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(66, 66, 189);
+}
+
+#div7 input {
+  width: 55px;
+  border-radius: 5px;
+  height: 20px;
+  font-weight: bold;
+  border: 1px solid rgb(66, 66, 189);
+}
+#div7 ::placeholder {
+  color: black;
+}
+
+#div7 {
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
+
+#div8 #p1 {
+  color: blue;
+  margin-top: 0px;
+}
+
+#div8 #p2 {
+  margin-top: 20px;
+}
+
+#div8 a {
+  color: blue;
+}
+
+#div9 {
+  color: gray;
+}
+
+#div9 a {
+  color: blue;
+}
+
+#down {
+  font-weight: bold;
+  text-align: center;
+  float: right;
+}
+
+#div8 {
+  float: right;
+}
+
+#div8 button {
+  background-color: lightgreen;
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-weight: bolder;
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin: 10px 130px;
+  margin-bottom: 100px;
+}
+
+footer a {
+  color: blue;
+}
+
+#foot1 {
+  margin-bottom: 10px;
+}
+
+#foot1 span {
+  margin-right: 4px;
+}
+
+#foot1 > :last-child a {
+  background-color: lightgrey;
+}
+
+#foot2 {
+  margin-top: 10px;
+  display: flex;
+}
+
+#foot21 {
+  margin-left: 0px;
+  color: gray;
+}
+
+#foot22 {
+  margin-right: 0px;
+  text-indent: -60px;
+}
